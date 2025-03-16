@@ -1,0 +1,26 @@
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dashboard-layout {
+  display: flex;
+  flex: 1; /* Ensures this section stretches to fill available height */
+}
+
+.SideNavbar {
+  width: 250px; /* Fixed width for the sidebar */
+  background-color: #343a40;
+  color: white;
+  height: calc(100vh - 120px); /* Full height minus the header and footer */
+  position: sticky; /* Sidebar stays in place while scrolling */
+  top: 60px; /* Height of the header */
+  overflow-y: auto; /* Enables scrolling if content exceeds sidebar height */
+}
+
+.dashboard-container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}

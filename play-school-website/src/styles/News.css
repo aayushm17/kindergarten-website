@@ -1,0 +1,75 @@
+/* News.css */
+
+.news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  background-color: #f8f9fa; /* Light background */
+  font-family: 'Arial', sans-serif;
+}
+
+.news-item {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: white;
+}
+
+.news-header {
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.news-header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #222;
+  margin: 0 0 0.5rem 0;
+}
+
+.news-date {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.news-image-container {
+  width: 1000px;
+}
+
+.news-image {
+  width: 1000px;
+  height: 100px; /* Increase the height for a larger image */
+  object-fit: cover; /* Ensure the image scales proportionally */
+  display: block;
+}
+
+.news-footer {
+  padding: 1.5rem;
+  background-color: white;
+}
+
+.news-description {
+  font-size: 1rem;
+  color: #444;
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.apply-button {
+  padding: 0.5rem 1rem;
+  background-color: #ffebc5; /* Light yellow */
+  border: none;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: #444;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  align-self: flex-start; /* Align the button to the left */
+}
+
+.apply-button:hover {
+  background-color: #fddf95;
+}

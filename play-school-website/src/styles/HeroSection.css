@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+PT:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+SA:wght@100..400&display=swap');
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #fdfcfa, #eaf9f5);
+    min-height: 100vh;
+    padding: 2rem 5rem;
+    position: relative;
+    flex-wrap: wrap;
+  }
+  
+  .hero-content {
+    max-width: 50%;
+    color: #333;
+  }
+  
+  .hero-content h4 {
+    font-size: 1.5rem;
+    color: #0f7dec;
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero-content h1 {
+    font-family: "PT Serif", serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0.5rem 0;
+  }
+  
+  .hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .apply-button {
+    background-color: #fbae42;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: bold;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .apply-button:hover {
+    background-color: #f18c07;
+  }
+  
+  .hero-image {
+    max-width: 40%;
+  }
+  
+  
+  .hero-image img {
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: opacity 1s ease-in-out; /* Smooth transition */
+    opacity: 1;
+  }
+  
+  .hero-image img.hidden {
+    opacity: 0; /* Hide previous image */
+  }
+  /* Decorative Top Border */
+  .hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+    /* background-image: url("../assets/wave-border.svg"); */
+    background-repeat: repeat-x;
+  }
+
+  .hero-content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center the navigation links */
+    flex-grow: 1;
+    width: 100%;
+    text-align: center;
+    flex-wrap: wrap;
+    
+  }
+  
+  .hero-content2 h2 {
+    font-family: "Libre Baskerville", serif;
+    font-size: 3rem;
+    margin-bottom: 0.1rem;
+    
+  }
+  .hero-content2 h4 {
+    margin-bottom: 0.1rem;
+    font-family: "Playwrite AU SA", serif;
+  }
+  .hero-content3 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1.5rem;
+  }
+  
+  .hero-content3 .box1,
+  .hero-content3 .box2,
+  .hero-content3 .box3 {
+    flex: 1; /* Equal width for all boxes */
+    background-color: #ffffff; /* White background for the box */
+    border-radius: 1rem; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Center align text and content */
+    padding: 1.5rem; /* Internal padding for content */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover effect transitions */
+  }
+  
+  .hero-content3 .box1:hover,
+  .hero-content3 .box2:hover,
+  .hero-content3 .box3:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+  }
+  
+  .hero-content3 img {
+    max-width: 100%; /* Ensure the image fits within the box */
+    border-radius: 1rem 1rem 1rem 1rem; /* Round the top corners */
+    margin-bottom: 1rem; /* Space below the image */
+  }
+  
+  .hero-content3 .box1 h4,
+  .hero-content3 .box2 h4,
+  .hero-content3 .box3 h4 {
+    font-size: 1.5rem;
+    color: #333; /* Darker text color */
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  .hero-content3 .box1 p,
+  .hero-content3 .box2 p,
+  .hero-content3 .box3 p {
+    font-size: 1rem;
+    color: #000000; /* Subtle text color */
+    margin-bottom: 1rem;
+  }
+  

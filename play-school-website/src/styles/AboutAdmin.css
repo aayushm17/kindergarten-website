@@ -1,0 +1,46 @@
+.about-admin {
+  padding: 20px;
+}
+
+.about-admin h2 {
+  margin-bottom: 20px;
+}
+
+.about-admin form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.about-admin label {
+  font-weight: bold;
+}
+
+.about-admin input,
+.about-admin textarea {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.about-admin button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.about-admin button:hover {
+  background-color: #0056b3;
+}
+
+.banner-preview {
+  max-width: 100%;
+  max-height: 200px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
